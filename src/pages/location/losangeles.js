@@ -1,4 +1,5 @@
 import * as React from "react"
+import Layout from "../../components/layout"
 
 // styles
 
@@ -6,10 +7,12 @@ import * as React from "react"
 
 const LosAngelesPage = () => {
   return (
-    <main>
-      <title>LosAngeles Page</title>
-	  <h1>LosAngeles Page</h1>
-    </main>
+	<Layout>
+		<main>
+		<title>LosAngeles Page</title>
+		<h1>LosAngeles Page</h1>
+		</main>
+	</Layout>
   )
 }
 

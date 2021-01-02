@@ -1,15 +1,15 @@
 import * as React from "react"
-
+import Layout from "../../components/layout"
 // styles
 
 // markup
 
 const FresnoPage = () => {
   return (
-    <main>
+    <Layout>
       <title>Fresno Page</title>
 	  <h1>Fresno Page</h1>
-    </main>
+    </Layout>
   )
 }
 
