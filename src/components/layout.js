@@ -8,7 +8,6 @@ const PageContainer = styled.div`
 color: var(--white);
 display:flex;
 flex-direction:row;
-
 `
 
 const Navlinks = styled.ul`

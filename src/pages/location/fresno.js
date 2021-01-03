@@ -7,8 +7,7 @@ import Layout from "../../components/layout"
 const FresnoPage = () => {
   return (
     <Layout>
-      <title>Fresno Page</title>
-	  <h1>Fresno Page</h1>
+      <h1>Fresno Page</h1>
     </Layout>
   )
 }

@@ -9,8 +9,7 @@ const LosAngelesPage = () => {
   return (
 	<Layout>
 		<main>
-		<title>LosAngeles Page</title>
-		<h1>LosAngeles Page</h1>
+			<h1>LosAngeles Page</h1>
 		</main>
 	</Layout>
   )

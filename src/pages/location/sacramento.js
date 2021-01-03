@@ -9,8 +9,7 @@ const SacramentoPage = () => {
   return (
 	  <Layout>
 		<main>
-		<title>Sacramento Page</title>
-		<h1>Sacramento Page</h1>
+			<h1>Sacramento Page</h1>
 		</main>
 	</Layout>
   )
