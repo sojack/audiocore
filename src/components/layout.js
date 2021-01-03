@@ -22,9 +22,6 @@ grid-template-columns: 1fr 3fr;
 }
 `
 
-const Navlinks = styled.ul`
-`
-
 const Layout= ({children}) => {
 return(
 	<PageContainer>
