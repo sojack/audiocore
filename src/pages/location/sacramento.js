@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../../components/layout"
+import {Helmet} from "react-helmet"
 
 // styles
 
@@ -8,9 +9,10 @@ import Layout from "../../components/layout"
 const SacramentoPage = () => {
   return (
 	  <Layout>
-		<main>
-			<h1>Sacramento Page</h1>
-		</main>
+		<Helmet>
+			<title>Sacramento - Location</title>
+		</Helmet>
+		<h1>Sacramento Page</h1>
 	</Layout>
   )
 }

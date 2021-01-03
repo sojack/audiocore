@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-
+import {Helmet} from "react-helmet"
 // styles
 
 // markup
@@ -8,10 +8,10 @@ import Layout from "../components/layout"
 const AboutPage = () => {
   return (
     <Layout>
-      <main>
-        <title>About Page</title>
+        <Helmet>
+          <title>About - AudioCore</title>
+        </Helmet>
         <h1>About Page</h1>
-      </main>
     </Layout>
   )
 }

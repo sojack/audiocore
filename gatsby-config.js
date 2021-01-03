@@ -11,7 +11,12 @@ module.exports = {
         spaceId: "p6dhuzd470og",
       },
     },
-    "gatsby-plugin-styled-components",
+    {
+      resolve:"gatsby-plugin-styled-components",
+      options:{
+        displayName:true,
+      }
+  },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {

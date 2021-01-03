@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../../components/layout"
+import {Helmet} from "react-helmet"
 // styles
 
 // markup
@@ -7,6 +8,9 @@ import Layout from "../../components/layout"
 const FresnoPage = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Fresno - Location</title>
+      </Helmet>
       <h1>Fresno Page</h1>
     </Layout>
   )
